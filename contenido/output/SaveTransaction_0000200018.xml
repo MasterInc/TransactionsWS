@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SaveTransaction xmlns="http://www.iVend.com/IIntegrationService/2010/12" xmlns:ns2="http://schemas.datacontract.org/2004/07/System" xmlns:ns3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <Transaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PostTransaction">
+        <Message></Message>
+        <GenerateIntegrationEvent>true</GenerateIntegrationEvent>
+        <EnterpriseName></EnterpriseName>
+        <StoreId>0101</StoreId>
+        <POSId>0101M</POSId>
+        <UserId>CAJA1</UserId>
+        <TransactionDate>2015-11-18T00:00:00.000-06:00</TransactionDate>
+        <BusinessDate>2015-11-17T00:00:00.000-06:00</BusinessDate>
+        <TransactionId>PR050</TransactionId>
+        <CustomerId>0000200018</CustomerId>
+        <ContactId></ContactId>
+        <DiscountType>None</DiscountType>
+        <DiscountAmount>0</DiscountAmount>
+        <SaleItemList>
+            <PostTransactionItem>
+                <Message></Message>
+                <GenerateIntegrationEvent>true</GenerateIntegrationEvent>
+                <EnterpriseName></EnterpriseName>
+                <ProductId>AC003</ProductId>
+                <Description>AIRE ACONDICIONADO C93220</Description>
+                <TaxCodeId>V3</TaxCodeId>
+                <Quantity>1</Quantity>
+                <DiscountType>None</DiscountType>
+                <DiscountAmount>0</DiscountAmount>
+                <DiscountPercent>0</DiscountPercent>
+                <Price>250</Price>
+                <ProductDetailNumber></ProductDetailNumber>
+                <OriginalDocumentId>0</OriginalDocumentId>
+                <SurchargeTotal>0</SurchargeTotal>
+                <OriginalDocumentKey>0</OriginalDocumentKey>
+                <OriginalDetailKey>0</OriginalDetailKey>
+                <ManualDiscountType>None</ManualDiscountType>
+                <ManualDiscountAmount>0</ManualDiscountAmount>
+                <ManualDiscountPercent>0</ManualDiscountPercent>
+                <CouponDiscountAmount>0</CouponDiscountAmount>
+                <PromotionalDiscountAmount>0</PromotionalDiscountAmount>
+                <UOMQuantity>1</UOMQuantity>
+                <UOMBaseQuantity>1</UOMBaseQuantity>
+                <UOMid>PI</UOMid>
+                <OriginalPrice>0</OriginalPrice>
+            </PostTransactionItem>
+        </SaleItemList>
+        <Payments>
+            <TransactionPayment>
+                <Message></Message>
+                <GenerateIntegrationEvent>true</GenerateIntegrationEvent>
+                <TransactionKey>10000000000074</TransactionKey>
+                <PaymentTypeId>EFECTIVO</PaymentTypeId>
+                <TenderType>Cash</TenderType>
+                <DetailKey>0</DetailKey>
+                <DetailType>None</DetailType>
+                <Amount>290</Amount>
+                <AccountType>Others</AccountType>
+                <CurrencyId>MXN</CurrencyId>
+                <IsVoided>false</IsVoided>
+                <PaidAmount>290</PaidAmount>
+            </TransactionPayment>
+        </Payments>
+    </Transaction>
+</SaveTransaction>
